@@ -1,0 +1,376 @@
+before
+after
+[0mGET / [32m200 [0m1002.980 ms - 155[0m
+[0mGET /stylesheets/style.css [32m200 [0m12.086 ms - 111[0m
+before
+after
+[0mGET / [36m304 [0m487.632 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m547.866 ms - 1318[0m
+[0mGET /stylesheets/style.css [32m200 [0m15.167 ms - 111[0m
+before
+after
+[0mGET / [36m304 [0m489.647 ms - -[0m
+before
+after
+[0mGET / [36m304 [0m479.063 ms - -[0m
+before
+after
+[0mGET / [36m304 [0m634.631 ms - -[0m
+before
+after
+[0mGET / [32m200 [0m532.863 ms - 304[0m
+[0mGET / [36m304 [0m488.514 ms - -[0m
+[0mGET / [36m304 [0m696.524 ms - -[0m
+[0mGET / [32m200 [0m511.231 ms - 449[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m522.041 ms - 656[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m551.043 ms - 656[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [36m304 [0m539.558 ms - -[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [36m304 [0m561.747 ms - -[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [36m304 [0m568.035 ms - -[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [36m304 [0m542.529 ms - -[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [36m304 [0m537.341 ms - -[0m
+Warning: missing space before text for line 6 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m508.953 ms - 647[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m778.034 ms - 822[0m
+[0mGET /checkin/ [31m500 [0m726.484 ms - 1486[0m
+[0mGET /checkin/ [32m200 [0m785.643 ms - 112[0m
+{ [Error: Internal Server Error]
+  original: null,
+  response: 
+   Response {
+     domain: null,
+     _events: {},
+     _eventsCount: 0,
+     _maxListeners: undefined,
+     res: 
+      IncomingMessage {
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        socket: [Object],
+        connection: [Object],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Object],
+        trailers: {},
+        rawTrailers: [],
+        upgrade: false,
+        url: '',
+        method: null,
+        statusCode: 500,
+        statusMessage: 'Internal Server Error',
+        client: [Object],
+        _consuming: true,
+        _dumped: false,
+        req: [Object],
+        setEncoding: [Function],
+        on: [Function],
+        text: '您今天已经打过上班卡，无需再次打卡。',
+        read: [Function],
+        body: undefined },
+     request: 
+      Request {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        _agent: false,
+        _formData: null,
+        method: 'GET',
+        url: 'https://www.zhisiyun.com/wxapp/001/do_clockInOut?op=in&address_name=璞缇客&longitude=121.44903&latitude=31.21772&distance=113.97',
+        _header: [Object],
+        header: [Object],
+        writable: true,
+        _redirects: 0,
+        _maxRedirects: 5,
+        cookies: '',
+        qs: {},
+        qsRaw: [Object],
+        _redirectList: [],
+        _streamRequest: false,
+        _data: [Object],
+        req: [Object],
+        protocol: 'https:',
+        host: 'www.zhisiyun.com',
+        _callback: [Function],
+        res: [Object],
+        response: [Circular],
+        _timeout: 0,
+        called: true },
+     req: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedHeader: [Object],
+        _contentLength: 24,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Object],
+        connection: [Object],
+        _header: 'GET /wxapp/001/do_clockInOut?op=in&address_name=璞缇客&longitude=121.44903&latitude=31.21772&distance=113.97 HTTP/1.1\r\nHost: www.zhisiyun.com\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13E238 MicroMessenger/6.3.15 NetType/WIFI Language/zh_CN\r\nContent-Type: application/json;charset=UTF-8\r\nCookie: connect.sid=s%3A-57p3ft0ME8VVlZZP28PkBMK.MrV3CuTuREbRfsKUFbuPyGS3MHGYNo8A6i8ocU9IKtk; i18next=zh\r\nContent-Length: 24\r\nConnection: close\r\n\r\n',
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: null,
+        agent: [Object],
+        socketPath: undefined,
+        method: 'GET',
+        path: '/wxapp/001/do_clockInOut?op=in&address_name=璞缇客&longitude=121.44903&latitude=31.21772&distance=113.97',
+        parser: null,
+        res: [Object] },
+     links: {},
+     text: '您今天已经打过上班卡，无需再次打卡。',
+     body: {},
+     files: {},
+     buffered: true,
+     headers: 
+      { server: 'nginx/1.1.19',
+        date: 'Thu, 28 Apr 2016 09:10:51 GMT',
+        'content-type': 'text/html; charset=utf-8',
+        'transfer-encoding': 'chunked',
+        connection: 'close',
+        'x-powered-by': 'Express',
+        vary: 'Accept-Encoding',
+        'set-cookie': [Object],
+        'content-encoding': 'gzip' },
+     header: 
+      { server: 'nginx/1.1.19',
+        date: 'Thu, 28 Apr 2016 09:10:51 GMT',
+        'content-type': 'text/html; charset=utf-8',
+        'transfer-encoding': 'chunked',
+        connection: 'close',
+        'x-powered-by': 'Express',
+        vary: 'Accept-Encoding',
+        'set-cookie': [Object],
+        'content-encoding': 'gzip' },
+     statusCode: 500,
+     status: 500,
+     statusType: 5,
+     info: false,
+     ok: false,
+     redirect: false,
+     clientError: false,
+     serverError: true,
+     error: 
+      { [Error: cannot GET /wxapp/001/do_clockInOut?op=in&address_name=璞缇客&longitude=121.44903&latitude=31.21772&distance=113.97 (500)]
+        status: 500,
+        text: '您今天已经打过上班卡，无需再次打卡。',
+        method: 'GET',
+        path: '/wxapp/001/do_clockInOut?op=in&address_name=璞缇客&longitude=121.44903&latitude=31.21772&distance=113.97' },
+     accepted: false,
+     noContent: false,
+     badRequest: false,
+     unauthorized: false,
+     notAcceptable: false,
+     forbidden: false,
+     notFound: false,
+     charset: 'utf-8',
+     type: 'text/html',
+     setEncoding: [Function: bound ],
+     redirects: [] },
+  status: 500 }
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m614.984 ms - 822[0m
+[0mGET /checkout [32m200 [0m593.163 ms - 76[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m601.225 ms - 822[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m1528.002 ms - 822[0m
+[0mGET /favicon.ico [33m404 [0m528.365 ms - 1467[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [36m304 [0m569.447 ms - -[0m
+[0mGET /checkin [32m200 [0m1401.414 ms - 76[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [36m304 [0m586.702 ms - -[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m1734.957 ms - 822[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m1698.611 ms - 822[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m1289.704 ms - 822[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m1609.107 ms - 822[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m1854.394 ms - 822[0m
+[0mGET /favicon.ico [33m404 [0m539.546 ms - 1467[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [36m304 [0m565.134 ms - -[0m
+[0mGET /checkin [36m304 [0m1003.345 ms - -[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m1416.927 ms - 822[0m
+[0mGET /favicon.ico [33m404 [0m571.026 ms - 1467[0m
+[0mGET /checkin [32m200 [0m692.904 ms - 76[0m
+[0mGET /favicon.ico [33m404 [0m508.545 ms - 1467[0m
+[0mGET /checkout [36m304 [0m616.166 ms - -[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m638.768 ms - 822[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m1666.515 ms - 822[0m
+[0mGET /favicon.ico [33m404 [0m561.457 ms - 1467[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [36m304 [0m556.052 ms - -[0m
+[0mGET /checkin [36m304 [0m764.677 ms - -[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m604.099 ms - 822[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m593.723 ms - 822[0m
+[0mGET /favicon.ico [33m404 [0m464.601 ms - 1467[0m
+[0mGET /checkout [36m304 [0m985.784 ms - -[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m803.161 ms - 822[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [36m304 [0m615.721 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m484.897 ms - 1467[0m
+[0mGET /checkin [36m304 [0m718.686 ms - -[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m619.729 ms - 822[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m1765.613 ms - 822[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m621.285 ms - 822[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m616.533 ms - 822[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m586.259 ms - 822[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m1593.813 ms - 822[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [36m304 [0m1569.737 ms - -[0m
+[0mGET /checkin [36m304 [0m1052.448 ms - -[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [36m304 [0m592.754 ms - -[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m600.509 ms - 822[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m602.338 ms - 822[0m
+[0mGET /favicon.ico [33m404 [0m571.013 ms - 1467[0m
+[0mGET /checkout [36m304 [0m652.934 ms - -[0m
+[0mGET /checkout [32m200 [0m549.971 ms - 76[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m1762.348 ms - 822[0m
+[0mGET /favicon.ico [33m404 [0m572.808 ms - 1467[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [36m304 [0m558.368 ms - -[0m
+[0mGET /checkin [36m304 [0m720.209 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m2310.405 ms - 1467[0m
+[0mGET /checkout [32m200 [0m683.001 ms - 76[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m639.190 ms - 822[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m598.484 ms - 822[0m
+[0mGET /favicon.ico [33m404 [0m604.092 ms - 1467[0m
+[0mGET /checkin [36m304 [0m987.573 ms - -[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m590.911 ms - 822[0m
+[0mGET /upload/200812/20081230023106860.gif [33m404 [0m513.189 ms - 1467[0m
+[0mGET /install/images/steptab.png [33m404 [0m485.693 ms - 1467[0m
+[0mGET /images/list_bg.png [33m404 [0m526.081 ms - 1467[0m
+[0mGET /images/loadinglit.gif [33m404 [0m497.226 ms - 1467[0m
+[0mGET /images/topbanner_bg.png [33m404 [0m510.043 ms - 1467[0m
+[0mGET /user/images/must.gif [33m404 [0m495.529 ms - 1467[0m
+[0mGET /images/page_code.png [33m404 [0m508.549 ms - 1467[0m
+[0mGET /includes/templates/classic/images/stars_5.gif [33m404 [0m509.528 ms - 1467[0m
+[0mGET /includes/templates/template_default/buttons/english/button_tell_a_friend.gif [33m404 [0m501.652 ms - 1467[0m
+[0mGET /images/default/ico_loading3.gif [33m404 [0m503.148 ms - 1467[0m
+[0mGET /template/user/images/manage_r2_c18.jpg [33m404 [0m481.587 ms - 1467[0m
+[0mGET /.htaccess [33m404 [0m510.486 ms - 1467[0m
+[0mGET /themes/README.txt [33m404 [0m508.144 ms - 1467[0m
+[0mGET /skins/doccms_model_1/images/bg_contact_a.png [33m404 [0m511.160 ms - 1467[0m
+[0mGET /Admin/Images/Icon-Nav-Close-over.gif [33m404 [0m496.581 ms - 1467[0m
+[0mGET /admin/Tpl/default/ThemeFiles/Images/login/bg-interior-tile-drk.jpg [33m404 [0m491.392 ms - 1467[0m
+[0mGET /robots.txt [33m404 [0m520.666 ms - 1467[0m
+[0mGET /admin/images/top_tt_bg.gif [33m404 [0m544.117 ms - 1467[0m
+[0mGET /inc_img/vote/vote2_1.gif [33m404 [0m508.552 ms - 1467[0m
+[0mGET /skins/images/ico_catalogue.png [33m404 [0m497.499 ms - 1467[0m
+[0mGET /forum/images/logout1.png [33m404 [0m519.902 ms - 1467[0m
+[0mGET /images-global/zoom/zoom-caption-fill.png [33m404 [0m508.491 ms - 1467[0m
+[0mGET /statics/arrowleft-orange.gif [33m404 [0m496.632 ms - 1467[0m
+[0mGET /cn/images/banner_page_bg.gif [33m404 [0m481.723 ms - 1467[0m
+[0mGET /themes/site/default/images/logo.png [33m404 [0m483.773 ms - 1467[0m
+[0mGET /licence.txt [33m404 [0m495.005 ms - 1467[0m
+[0mGET /template/default/index/images/anvico.png [33m404 [0m503.625 ms - 1467[0m
+[0mGET /admin/templates/met/images/logosmall.gif [33m404 [0m477.371 ms - 1467[0m
+[0mGET /wap/templates/met/images/listico.gif [33m404 [0m495.727 ms - 1467[0m
+[0mGET /views/images/admin/closex.gif [33m404 [0m494.170 ms - 1467[0m
+[0mGET /content/templates/default/images/bg_cal_today.gif [33m404 [0m481.436 ms - 1467[0m
+[0mGET /admin/ecshopfiles.md5 [33m404 [0m475.160 ms - 1467[0m
+[0mGET /Template/Default/Layout/1s2s2/ico.gif [33m404 [0m487.102 ms - 1467[0m
+[0mGET /images/admina/sitmap0.png [33m404 [0m499.820 ms - 1467[0m
+[0mGET /robots.txt [33m404 [0m495.823 ms - 1467[0m
+[0mGET /system/blue_point.png [33m404 [0m493.544 ms - 1467[0m
+[0mGET /statics/images/icon/error.png [33m404 [0m500.636 ms - 1467[0m
+[0mGET /images/buddies.png [33m404 [0m494.657 ms - 1467[0m
+[0mGET /theme/t1/themebg_preview.jpg [33m404 [0m493.006 ms - 1467[0m
+[0mGET /data/setmealimg/3.gif [33m404 [0m513.005 ms - 1467[0m
+[0mGET /plus/weather/icon/a_12.gif [33m404 [0m510.050 ms - 1467[0m
+[0mGET /views/default/skin/blue/images/front/buying.gif [33m404 [0m474.967 ms - 1467[0m
+[0mGET /wp-includes/images/icon-pointer-flag.png [33m404 [0m521.320 ms - 1467[0m
+[0mGET /base/admin/images/linksup.gif [33m404 [0m481.222 ms - 1467[0m
+[0mGET /zb_users/avatar/0.png [33m404 [0m493.448 ms - 1467[0m
+[0mGET /images/forum_readme.gif [33m404 [0m504.189 ms - 1467[0m
+[0mGET /admin/images/loadingAnimation.gif [33m404 [0m481.670 ms - 1467[0m
+[0mGET /install/images/r.gif [33m404 [0m497.785 ms - 1467[0m
+[0mGET /components/com_mailto/views/sent/metadata.xml [33m404 [0m489.061 ms - 1467[0m
+[0mGET /Admin/Images/southidc.css [33m404 [0m509.655 ms - 1467[0m
+[0mGET /e/install/images/bg_1.gif [33m404 [0m523.501 ms - 1467[0m
+[0mGET /e/js/zh-cn/lang.js [33m404 [0m498.059 ms - 1467[0m
+[0mGET /Admin/Include/version.xml [33m404 [0m490.744 ms - 1467[0m
+[0mGET /template/skin6/cn/images/ico_zlxz.gif [33m404 [0m499.859 ms - 1467[0m
+[0mGET /admin/images/arrow_right_8x8.png [33m404 [0m480.226 ms - 1467[0m
+[0mGET /image/cflag/ad.gif [33m404 [0m479.487 ms - 1467[0m
+[0mGET /Admin/images/install_logo.jpg [33m404 [0m513.904 ms - 1467[0m
+[0mGET /public/attachment/201011/4cdde85a27105.gif [33m404 [0m498.970 ms - 1467[0m
+[0mGET /images/gif_47_106.gif [33m404 [0m503.096 ms - 1467[0m
+[0mGET /LICENSE.txt [33m404 [0m493.675 ms - 1467[0m
+[0mGET /static/none.gif [33m404 [0m482.834 ms - 1467[0m
+[0mGET /celive/admin/live/loading.gif [33m404 [0m521.830 ms - 1467[0m
+[0mGET /zb_users/PLUGIN/Gravatar/Logo.png [33m404 [0m494.591 ms - 1467[0m
+[0mGET /dayrui/statics/default/images/sd02.png [33m404 [0m501.183 ms - 1467[0m
+[0mGET /extensions/calendar/img/nav-left.gif [33m404 [0m502.257 ms - 1467[0m
+[0mGET /style/default/fujian_top_bg.jpg [33m404 [0m488.917 ms - 1467[0m
+[0mGET /style/default/login_bg.jpg [33m404 [0m469.459 ms - 1467[0m
+[0mGET /App_Themes/AdminDefaultTheme/DateTheme/bgteuw.jpg [33m404 [0m496.986 ms - 1467[0m
+[0mGET /admin/Images/Sort_Folder_Close.gif [33m404 [0m479.084 ms - 1467[0m
+[0mGET /images/default/listico.gif [33m404 [0m479.146 ms - 1467[0m
+[0mGET /admin/tpl/images/welcome_h1.gif [33m404 [0m490.481 ms - 1467[0m
+[0mGET /adfile/ad9.js [33m404 [0m493.611 ms - 1467[0m
+[0mGET /images/common/online_member.gif [33m404 [0m492.186 ms - 1467[0m
+[0mGET /templates/uchome/images/title.gif [33m404 [0m496.599 ms - 1467[0m
+[0mGET /adminsoft/templates/images/login_title.png [33m404 [0m481.330 ms - 1467[0m
+[0mGET /images/admin/sprites.png [33m404 [0m537.863 ms - 1467[0m
+[0mGET /Admin/Images/bg_admin.jpg [33m404 [0m503.431 ms - 1467[0m
+[0mGET /images/reg.gif [33m404 [0m489.191 ms - 1467[0m
+[0mGET /favicon.ico [33m404 [0m483.056 ms - 1467[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m1195.363 ms - 822[0m
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [36m304 [0m611.867 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m478.465 ms - 1467[0m
+[0mGET /checkin [36m304 [0m734.661 ms - -[0m

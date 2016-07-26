@@ -1,0 +1,3 @@
+Warning: missing space before text for line 7 of jade file "/alidata/www/nodejs_kaoqin/views/kaoqin.jade"
+[0mGET / [32m200 [0m588.773 ms - 822[0m
+[0mGET /favicon.ico [33m404 [0m57.744 ms - 1467[0m

@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= title
+  div(class="btn-group", role="group")
+    button(id="btnGroupDrop1", type="button", class="btn btn-secondary dropdown-toggle", data-toggle="dropdown", aria-haspopup="true", aria-expanded="false")
+       考勤
+    div(class="dropdown-menu", aria-labelledby="btnGroupDrop1")
+      a(class="dropdown-item", href="#") 上班
+      a(class="dropdown-item", href="#") checkout
+    </div>
+  </div>
+  a(href='/checkin', class= "btn btn-primary-outline btn-lg",role="button")  checkin
+  a(href='/checkout', class= "btn btn-success-outline btn-lg",role="button") checkout
